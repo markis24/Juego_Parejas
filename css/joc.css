@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.informacio, .controls {
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    background-color: #bdc3c7;
+}
+
+/* Estilo de los botones */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 15px; /* Espacio reducido entre los elementos */
+    padding: 10px; /* Margen interno */
+    width: 420px; /* Ancho fijo para centrar el grid */
+    margin: 0 auto; /* Centrar el grid en la página */
+    align-items: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue; /* Color de fondo de cada tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.card.disabled {
+    background-color: grey;
+    cursor: default;
+}.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 15px; /* Espacio reducido entre los elementos */
+    padding: 10px; /* Margen interno */
+    width: 420px; /* Ancho fijo para centrar el grid */
+    margin: 0 auto; /* Centrar el grid en la página */
+    align-items: center;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue; /* Color de fondo de cada tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.card.disabled {
+    background-color: grey;
+    cursor: default;
+}
