@@ -56,7 +56,6 @@ document.addEventListener('DOMContentLoaded', function () {
             if (cartasEncontradas === cartas.length) {
                 // Cuando se encuentran todas las cartas, redirigimos a otra página
                 setTimeout(() => {
-                    alert(`¡Joc finalitzat! La teva puntuació és ${puntuacio}.`);
                     // Redirigir a otra página
                     window.location.href = "final.html"; // Cambia "final.html" por la URL de la página de tu elección
                 }, 500);
